@@ -1,6 +1,43 @@
 Hello) 
 Wine Data Science Project - Analysis Overview
 
+
+**Context**
+
+The datasets are related to red and white wines of the "Vinho Verde" brand. Due to privacy and logistical issues, only physicochemical (input) and sensory (output) variables are available (e.g., there is no data on grape types, wine brand, wine selling price, etc.). Wine information is obtained based on physicochemical tests.
+
+**(Data)**
+fixed acidity - fixed acidity (most acids contained in wine are either fixed or difficult to evaporate)
+
+volatile acidity - amount of acetic acid in wine
+
+citric acid - citric acid
+
+residual sugar - amount of sugar remaining after fermentation stops
+
+chlorides - amount of salt in wine
+
+free sulfur dioxide - free form of SO2
+
+total sulfur dioxide - total amount of free and bound forms of SO2
+
+density - liquid density
+
+pH - acid-base indicator
+
+sulphates - wine additive from sulfates
+
+alcohol - alcohol percentage
+
+quality (score between 0 and 10) - wine quality
+
+**(Tasks)**
+Build several regression models (3-4) predicting wine quality. For each model, create a ranking of the contribution of each feature to the target variable. Select the best model and explain your choice.
+
+Find "anomalous" wines in each class that could be moved to another class without losing the general dependency rules. Explain the reasons that allow such relocation.
+
+
+
 This project demonstrates a comprehensive analysis of wine quality data, combining regression modeling, feature importance evaluation, clustering, dimensionality reduction, anomaly detection, and data visualization.
 
 1. **Data Preparation**
@@ -40,3 +77,6 @@ This project demonstrates a comprehensive analysis of wine quality data, combini
    - For full insight, it is recommended to run the code to explore graphs and results dynamically.
 
 The project demonstrates end-to-end workflow in wine data analysis, combining statistical modeling, machine learning, clustering, PCA visualization, and anomaly detection.
+
+
+
